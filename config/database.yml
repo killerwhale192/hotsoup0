@@ -82,4 +82,4 @@ production:
   <<: *default
   database: hotsoup
   username: killerwhale
-  password: blahblahtesting
+  password: <%= ENV["DATABASE_KEY"] %>
